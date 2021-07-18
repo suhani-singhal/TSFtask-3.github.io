@@ -1,0 +1,129 @@
+body{
+  background-color: #C9D6DF;
+  text-align: center;
+}
+
+/* navigation-bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  margin:30px 16px 0 20px;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #87A7B3;
+
+}
+
+.nav-link{
+  padding: 15px;
+  margin: 0 30px 0 20px;
+  font-size: 1.25rem;
+  color: #87A7B3;
+
+}
+.toggle{
+    color: #87A7B3;
+}
+
+/* front-section */
+
+.row{
+  text-align: center;
+  padding: 3% 5%;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 30px 0 40px 60px;
+
+
+
+}
+h3{
+  font-family: 'Spartan', sans-serif;
+  padding: 0 20px 50px 60px;
+
+}
+.headings{
+  text-align: left;
+  color: #57837B;
+
+}
+.donatebtn{
+  margin: 0 200px ;
+  background-color: #12947F;
+  font-size: 2rem;
+  color: #C4FB6D;
+
+}
+.donatebtn:hover{
+  background-color: #E1F1DD;
+}
+
+/* NEXT-SECTION */
+
+.donate_click{
+  text-align: center;
+}
+.final_image{
+  width: 20%;
+  margin-bottom: 50px;
+
+}
+.heading2{
+  color: #57837B;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+/* FOOTER-SECTION */
+
+.contacticons{
+  padding: 0 5% 2%;
+}
+.contacticons:hover{
+  color: #141E61;
+}
+.copyright-section{
+  color: #fff;
+  padding: 7% 15% 2%;
+  color: #E1F1DD;
+}
+
+/* ABOUT-SECTION */
+
+.aboutImg{
+  width: 30%;
+  position: absolute;
+  right: 70px;
+  top: 150px;
+}
+
+.about_headings{
+  text-align: left;
+  font-size: 3rem;
+  margin: 10px 0 20px 30px;
+}
+.about_para{
+  text-align: left;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 3% 0;
+}
+@media screen and (min-width:320px) and (max-width:1200px){
+  .img{
+    margin-top: 100px;
+  }
+  .donatebtn{
+    margin-left: 70px;
+  }
+  .aboutImg{
+    width: 0;
+  }
+}
